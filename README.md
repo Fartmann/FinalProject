@@ -36,28 +36,34 @@ This project is a full-stack e-commerce platform for selling jewelry, built usin
 
 ### Installation
 
-1.  Clone the repository:
+1. Create a repository and write in command line:
+
+   ```bash
+    git clone [repository URL]
+    cd [repository directory]
+    ```
+2.  Clone the repository:
 
     ```bash
     git clone [repository URL]
     cd [repository directory]
     ```
 
-2.  Install backend dependencies:
+3.  Install backend dependencies:
 
     ```bash
     cd backend
     npm install
     ```
 
-3.  Install frontend dependencies:
+4.  Install frontend dependencies:
 
     ```bash
     cd ../frontend
     npm install
     ```
 
-4.  Create a `.env` file in the `backend` directory and add the following environment variables:
+5.  Create a `.env` file in the `backend` directory and add the following environment variables:
 
     ```
     MONGODB_URI=your_mongodb_connection_string
@@ -67,14 +73,14 @@ This project is a full-stack e-commerce platform for selling jewelry, built usin
     * Replace `your_mongodb_connection_string` with your MongoDB connection string.
     * Replace `your_jwt_secret` with a strong, randomly generated secret key.
 
-5.  Run the backend server:
+6.  Run the backend server:
 
     ```bash
     cd ../backend
-    npm start
+    node app.js
     ```
 
-6.  Open `frontend/index.html` in your browser.
+6.  Open `http://localhost:3000` in your browser or in terminal.
 
 ## Database Setup
 
