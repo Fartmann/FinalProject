@@ -73,18 +73,18 @@ This project is a full-stack e-commerce platform for selling jewelry, built usin
     * Replace `your_mongodb_connection_string` with your MongoDB connection string.
     * Replace `your_jwt_secret` with a strong, randomly generated secret key.
 
-6.  Run the backend server:
+6.  Run the application :
 
     ```bash
-    cd ../backend
+    cd ../final
     node app.js
     ```
 
-6.  Open `http://localhost:3000` in your browser or in terminal.
+7.  Open `http://localhost:3000` in your browser or in terminal.
 
 ## Database Setup
 
-* Ensure your MongoDB database is running.
+* Ensure your MongoDB Atlas database is running. If not, create a cluster on https://cloud.mongodb.com/ website.
 * The application uses Mongoose to interact with the database.
 * The database will be automatically created if it doesn't exist.
 
