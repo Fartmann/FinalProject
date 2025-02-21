@@ -114,21 +114,9 @@ This project is a full-stack e-commerce platform for selling jewelry, built usin
 
 ## Future Improvements
 
-* Shopping cart functionality.
-* Payment gateway integration.
-* Order tracking.
-* User reviews and ratings.
-* Advanced search and filtering.
-* Responsive design for mobile devices.
-* Personalized recommendations.
-* Inventory management.
-* Social media integration.
-* SEO optimization.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request.
-
-## License
-
-[Your License]
+* Shopping Cart Functionality
+* Order Tracking
+* User Reviews
+* Responsive Design for Mobile Devices
+* Social Media Integration
+* Personal account (profile)
